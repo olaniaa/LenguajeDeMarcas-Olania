@@ -1,0 +1,125 @@
+body {
+    background-image: url("station.jpeg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(Estacion.jpg);
+}
+
+.Fondo {
+    background-color: rgba(224, 217, 217, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.imagen1 {
+    height: 50px;
+    border-radius: 100px;
+}
+
+.texto1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans';
+    font-size: 15px;
+}
+
+.texto2 {
+    background-color: rgb(128, 50, 50);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans';
+    font-size: 50px;
+    background-color: rgb(128, 50, 50);
+    padding: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(52, 190, 115);
+}
+
+#decrement-btn {
+    background: rgb(190, 103, 103);
+}
+
+#save-btn {
+    background: rgb(70, 131, 146);
+}
+
+#table {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.titulo {
+    background-color: rgb(128, 50, 50);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.horario {
+    color: rgb(128, 50, 50);
+}
+
+#estaciones {
+    background-color: rgb(128, 50, 50);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.comprar {
+    background-color: rgb(128, 50, 50);
+    color: aliceblue;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.seccion3 {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-top: 25px;
+    width: 100%;
+}
+

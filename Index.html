@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="icon" href="Icono.jpg" type="Imagen">
+</head>
+
+<body>
+    <div class="Fondo">
+    </p><h1>Estación Delicias <img src="Icono.jpg" class="imagen1"></img> </h1>
+    <table>
+        <tr>
+            <td class="horario">Día:</td>
+            <td id="fecha" class="horario"></td>
+        </tr>
+        <tr>
+            <td class="horario">Hora:</td>
+            <td id="reloj" class="horario"></td>
+        </tr>
+    </table>
+    
+    <div class="container">
+    <table id="table">
+        <tr>
+            <th class="titulo">Tipo de viaje</th>
+            <th class="titulo">Inicio</th>
+            <th class="titulo">Destino</th>
+            <th class="titulo">Hora de salida</th>
+            <th class="titulo">Hora de llegada</th>
+        </tr>
+        <tr>
+            <td>Regional</td>
+            <td>Zaragoza</td>
+            <td>Madrid</td>
+            <td>12:30</td>
+            <td>14:30</td>
+        </tr>
+        <tr>
+            <td>Alta velocidad</td>
+            <td>Barcelona</td>
+            <td>Valencia</td>
+            <td>6:00</td>
+            <td>7:30</td>
+        </tr>
+        <tr>
+            <td>Expreso</td>
+            <td>Sevilla</td>
+            <td>Granada</td>
+            <td>18:00</td>
+            <td>18:30</td>
+        </tr>
+        <tr>
+            <td>Local</td>
+            <td>Madrid</td>
+            <td>Salamanca</td>
+            <td>19:00</td>
+            <td>20:00</td>
+        </tr>
+    </table>
+    <table id="table">
+        <tr>
+            <th class="titulo">Tipo de viaje</th>
+            <th class="titulo">Precio (€)</th>
+        </tr>
+        <tr>
+            <td>Regional</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Alta velocidad</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Expreso</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Local</td>
+            <td>30</td>
+        </tr>
+    </table>
+    
+    <div class="seccion3">
+    <p class="texto2">Selecciona el tipo de billete y la cantidad:</h6>
+
+    <div id="botonSeleccion">
+        <select id="estaciones">
+            <option value="Regional">Regional</option>
+            <option value="Alta velocidad">Alta velocidad</option>
+            <option value="Expreso">Expreso</option>
+            <option value="Local">Local</option>
+        </select>
+        <label for="cantidadBilletes">Cantidad de billetes:</label>
+        <input type="number" id="cantidadBilletes" min="1" value="1">
+        <button onclick="comprar()" class="comprar">Comprar billetes</button>
+    </div>
+
+    <div id="billetes"></div>
+
+    
+    <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">Nuevo viaje</button>
+        <button id="decrement-btn" onclick="decrement()">Fin viaje</button>
+        <button id="save-btn" onclick="save()">Registro</button>
+        <p id="save-el" class="texto1">Datos registro:</p>
+    </div>
+    </div>
+    <script src="Index.js"></script>
+    
+</div>
+</body>
+</html>
